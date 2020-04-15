@@ -1,0 +1,96 @@
+This file is to track which classes have FULL JUnit, and which still need it doing.
+To create a JUnit test file in Eclipse, right-click the file that needs testing, 
+click 'New' then 'JUnit Test Case'.
+
+x = not done
+/ = done
+
+x ai:
+	x AIController	
+/ audio:
+	/ AudioEvent
+	/ AudioManager
+	/ SoundEffects
+x client:
+	x Client
+	x ClientInputSample
+	x ClientTCP
+	x ClientWindowListener
+	x InputManager
+	x Launcher
+x core:
+	x ClientMessage
+	x ClientModelManager
+	x Entity
+	x EntityLite
+	x Parameters
+	x ServerMessage
+	x ServerModelManager
+/ drops:
+	/ Effect
+	/ HealthItem
+	/ HealthPickup
+	/ InvulnerableItem
+	/ InvulnerablePickup
+	/ Item
+	/ Mine
+	/ MineItem
+	/ MinePickup
+	/ NoCooldownItem
+	/ NoCooldownPickup
+	/ Pickup
+	/ PlaneDropper
+	/ SpeedItem
+	/ SpeedPickup
+	/ Torpedo
+	/ TorpedoItem
+	/ TorpedoPickup
+/ mapgeneration:
+	/ Map
+	/ MapVector
+	/ PerlinNoise
+x physics:
+	/ AABB
+	x AxisVector
+	/ Collision
+	/ CollisionDetector
+	x IntervalValue
+	x IntervalValueType
+	x MTV
+	/ PhysicsManager
+	x Position
+	x Projection
+x rendering:
+	x Font
+	x FontColor
+	x Renderer
+	x Sprite
+x score:
+	x ClientScoreBoard
+	x Score
+	x ScoreEvent
+	x ServerScoreBoard
+x server:
+	x ClientHandler
+	x GameEvent
+	x Player
+	x Server
+	x ServerGameHandler
+	x Timer
+	x TimerEvent
+x ship:
+	/ Bullet
+	x Ship
+	x Turret
+x ui:
+	x Button
+	x ConnectButton
+	x CreateServerButton
+	x ExitButton
+	x IPField
+	x IPInfo
+	x MainMenu
+	x SinglePlayerButton
+	x SplashScreen
+x util:
+	x LogManager

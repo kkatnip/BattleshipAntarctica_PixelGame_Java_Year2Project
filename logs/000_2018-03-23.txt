@@ -1,0 +1,6 @@
+******************************************************
+*                   LOG: 2018-03-23                  *
+******************************************************
+13:03:48.406594 Log[INFO]: Log manager successfuly initialised.
+13:03:48.414324 Audio[INFO]: Loading sound files...
+13:03:48.649488 Client[INFO]: Booting client...

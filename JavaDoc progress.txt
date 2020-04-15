@@ -1,0 +1,106 @@
+This file is to track which classes have FULL JavaDoc, and which still need it doing.
+To insert JavaDoc in Eclipse, type "/**" above a method or class and press Enter.
+
+x = not done
+/ = done
+
+/ ai:
+	/ AIController	
+/ audio:
+	/ AudioEvent
+	/ AudioManager
+	/ SoundEffects
+/ client:
+	/ Client
+	/ ClientInputSample
+	/ ClientTCP
+	/ ClientWindowListener
+	/ InputManager
+	/ Launcher
+x core:
+	/ ClientMessage
+	x ClientModelManager
+	/ Entity
+	/ EntityLite
+	x Parameters
+	/ ServerMessage
+	x ServerModelManager
+/ items:
+	/ Effect
+	/ HealthItem
+	/ HealthPickup
+	/ InvulnerableItem
+	/ InvulnerablePickup
+	/ Item
+	/ Mine
+	/ MineItem
+	/ MinePickup
+	/ NoCooldownItem
+	/ NoCooldownPickup
+	/ Pickup
+	/ PlaneDropper
+	/ SpeedItem
+	/ SpeedPickup
+	/ Torpedo
+	/ TorpedoItem
+	/ TorpedoPickup
+/ mapgeneration:
+	/ Map
+	/ MapVector
+	/ PerlinNoise
+/ physics:
+	/ AABB
+	/ AxisVector
+	/ Collision
+	/ CollisionDetector
+	/ IntervalValue
+	/ IntervalValueType
+	/ MTV
+	/ PhysicsManager
+	/ Position
+	/ Projection
+/ rendering:
+	/ Font
+	/ FontColor
+	/ Renderer
+	/ Sprite
+/ score:
+	/ ClientScoreBoard
+	/ Score
+	/ ScoreEvent
+	/ ServerScoreBoard
+x server:
+	/ ClientHandler
+	/ GameEvent
+	/ Player
+	/ Server
+	/ ServerGameHandler
+	x Timer
+	x TimerEvent
+/ ship:
+	/ Bullet
+	/ Ship
+	/ Turret
+/ ui:
+	/ Button
+	/ ConnectButton
+	/ CreateServerButton
+	/ ExitButton
+	/ InfoBox
+	/ InteractiveLogo
+	/ Lobby
+	/ MainMenu
+	/ MuteButton
+	/ NameButton
+	/ NameScreen
+	/ Page
+	/ ReturnToMainButton
+	/ SettingButton
+	/ SettingsMenu
+	/ SinglePlayerButton
+	/ SplashScreen
+	/ StartButton
+	/ TextBox
+	/ VolumeButton
+/ util:
+	/ LogManager
