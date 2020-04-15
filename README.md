@@ -1,5 +1,6 @@
 # PixelGame_Java_Year2Project
-Name of the game: Battleship Antarctica 
+
+# Name of the game: Battleship Antarctica 
 
 This is a group project I worked on during Year 2 in the University of Birmingham. 
 
