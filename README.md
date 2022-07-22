@@ -1,7 +1,5 @@
 # Battleship Antarctica 
 
-![Start Screen:](https://github.com/kkatnip/PixelGame_Java_Year2Project/blob/master/src/org/alien8/assets/title_screen.png)
-
 
 
 This is a group project I worked on during Year 2 in the University of Birmingham. 
